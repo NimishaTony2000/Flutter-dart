@@ -1,0 +1,6 @@
+void main() {
+  Set<int> set1 = {1, 2, 3, 4, 5};
+  Set<int> set2 = {3, 4, 5, 6, 7};
+  Set<int> difference = set1.difference(set2);
+  print("Difference between set1 and set2: $difference");
+}
